@@ -10,18 +10,18 @@
 }
 
 .box {
-  margin: auto 20px;
+  margin: 20px;
   padding: 15px 30px;
   background: linear-gradient(to right, rgb(79, 34, 216), rgb(61, 203, 228));
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
   display: inline-block;
-  position: relative;
-  left: 20px;
-  top: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: white;
+}
+.box1 {
+  margin-left: 50px;
 }
 
 h1 {
