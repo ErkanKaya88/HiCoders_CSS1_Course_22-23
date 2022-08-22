@@ -1,3 +1,4 @@
+/* margin ve padding icin mesafeler width icinde olacak */
 * {
   box-sizing: border-box;
 }
@@ -17,7 +18,7 @@
   text-align: center;
   color: #519bef;
 }
-/* form elementlerinin mesafe ayari icin */
+/* form elementlerinin mesafe ayari icin. */
 .form-all .form-element {
   margin-top: 20px;
 }
