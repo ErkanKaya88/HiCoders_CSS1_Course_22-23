@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- genel box icin bir div -->
     <div class="container">
+      <!-- form elemetlerinin mesafe ve aralik icin bir div -->
       <div class="form-all">
         <h1>Register Form</h1>
+        <!-- form start -->
         <form action="">
+          <!-- her input icin ayri div verdim. düzenleme ve anlasilma daha kolay olmasi icin. -->
           <div class="form-element">
             <label for="fullname">Fullname *</label>
             <input type="text" name="fullname" id="fullname" required />
@@ -39,13 +43,15 @@
               type="password"
               name="password"
               id="password"
-              placeholder="*********"
+              placeholder="********"
               required
             />
             <span>Required</span>
           </div>
+          <!-- send butonunu button etiketi ile yaptim -->
           <button type="submit">Send</button>
         </form>
+        <!-- form end. -->
       </div>
     </div>
   </body>

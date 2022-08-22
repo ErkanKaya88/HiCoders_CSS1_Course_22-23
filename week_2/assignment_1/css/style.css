@@ -1,8 +1,8 @@
-/*  */
+/* margin ve padding icin mesafeler width icinde olacak */
 * {
   box-sizing: border-box;
 }
-
+/* genel cerceve stillendi */
 .container {
   margin: 100px auto;
   padding: 10px;
@@ -18,7 +18,7 @@
   text-align: center;
   color: #519bef;
 }
-/* form elementlerinin mesafe ayari icin */
+/* form elementlerinin mesafe ayari icin. */
 .form-all .form-element {
   margin-top: 20px;
 }
@@ -31,7 +31,7 @@
   border-radius: 3px;
   margin-bottom: 5px;
 }
-
+/* button stillendi  */
 .form-all button {
   width: 80px;
   border: none;
@@ -40,6 +40,7 @@
   background-color: #519bef;
   color: #fff;
 }
+/* Required yazisi rengini kirmizi yaptim */
 .form-all span {
   color: red;
 }
