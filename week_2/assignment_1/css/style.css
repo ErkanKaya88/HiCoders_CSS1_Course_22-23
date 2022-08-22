@@ -1,0 +1,45 @@
+/*  */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 100px auto;
+  padding: 10px;
+  width: 450px;
+  height: 600px;
+  box-shadow: 0px 0px 5px 2px;
+}
+
+.form-all {
+  padding: 20px 30px;
+}
+.form-all h1 {
+  text-align: center;
+  color: #519bef;
+}
+/* form elementlerinin mesafe ayari icin */
+.form-all .form-element {
+  margin-top: 20px;
+}
+.form-all .form-element label {
+  display: block;
+}
+.form-all .form-element input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.form-all button {
+  width: 80px;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 15px;
+  background-color: #519bef;
+  color: #fff;
+}
+.form-all span {
+  color: red;
+}
